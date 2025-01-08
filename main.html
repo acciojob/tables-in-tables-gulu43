@@ -7,8 +7,72 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <table style="width: 100%; height: 100%">
+    <table style="width: 100%; height: 100%" border="1px">
       <!-- Your code here -->
+		<tr>
+			<!--2 and 1 tables here  -->
+			<!-- table 2   -->
+			<td>
+				<table border="1px">
+					<tr>
+						<th colspan="2" >Nested Table 2</th>
+					</tr>
+					<tr>
+						<th>Column 1</th>
+						<th>Column 2</th>
+					</tr>
+					<tr>
+						<td>abc</td>
+						<td>def</td>
+					</tr>
+				</table>
+			</td>
+			<!-- table 1 -->
+			<td>
+				<table border="1px">
+					<tr>
+						<th>Nested Table 1</th>
+					</tr>
+					<tr>
+						<td>
+							<ul>
+								<li>List item</li>
+								<li>List item</li>
+								<li>List item</li>
+							</ul>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<!-- second tables inside here -->
+		
+		<tr>
+			<td>
+				<!--create table  row 2 colom 1 table-->
+				<table border="1px">
+					<tr>
+						<th colspan="2">Nested Table 3</th>
+					</tr>
+					<tr>
+						<td>Nested Table</td>
+						<td>Demo Continued</td>
+					</tr>
+				</table>
+			</td>
+			<!--4 table  -->
+			<td>
+				<table border="1px" >
+					<tr>
+						<th>Nested Table 4</th>
+					</tr>
+					<tr id="change">
+						<td>HTML</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
     </table>
+	  
   </body>
 </html>

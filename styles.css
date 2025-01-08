@@ -1,2 +1,9 @@
 
 /* Your CSS Code here. */
+table,th,td {
+	border: 1px solid;
+}
+#change{
+	background-color:black;
+	font-style:white;
+}

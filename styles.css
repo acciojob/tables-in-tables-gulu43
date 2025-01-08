@@ -3,7 +3,10 @@
 table,th,td {
 	border: 1px solid;
 }
+table{
+	width:100%;
+}
 #change{
 	background-color:black;
-	font-style:white;
+	color:white;
 }
